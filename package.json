@@ -1,38 +1,38 @@
 {
-  "name": "artycles",
-  "version": "0.0.1",
-  "description": "[WIP] Content creation module",
-  "author": "makesites",
-  "contributors": [
-    {
-      "name": "Makis Tracend",
-      "email": "makis@makesit.es"
-    }
-  ],
-  "homepage": "http://makesites.org/artycles",
-  "keywords": [
-    "node", "content", "create", "aws"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/makesites/artycles"
-  },
-  "bugs": {
-    "url": "https://github.com/makesites/artycles/issues"
-  }, 
-  "licenses": [
-    {
-      "type": "MIT License",
-      "url": "http://www.makesites.org/licenses/MIT"
-    }
-  ], 
-  "main": "./index.js",
-  "engines": {
-    "node": ">0.8.x"
-  },
-  "dependencies": {
-	  "aws-lib" : "0.2.x"
-          "grunt": "0.4.4",
-          "grunt-responsive-videos": "0.1.1"
-}
+	"name": "artycles",
+	"version": "0.0.1",
+	"description": "Content creation module",
+	"author": "makesites",
+	"contributors": [
+		{
+			"name": "Makis Tracend",
+			"email": "makis@makesit.es"
+		}
+	],
+	"homepage": "http://makesites.org/artycles",
+	"keywords": [
+		"node", "content", "create", "aws"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/makesites/artycles"
+	},
+	"bugs": {
+		"url": "https://github.com/makesites/artycles/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT License",
+			"url": "http://www.makesites.org/licenses/MIT"
+		}
+	],
+	"main": "./index.js",
+	"engines": {
+		"node": ">0.8.x"
+	},
+	"dependencies": {
+		"aws-lib" : "0.2.x"
+		"grunt": "0.4.4",
+		"grunt-responsive-videos": "0.1.1"
+	}
 }
