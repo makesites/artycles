@@ -31,7 +31,7 @@
 		"node": ">0.8.x"
 	},
 	"dependencies": {
-		"aws-lib" : "0.2.x"
+		"aws-lib" : "0.2.x",
 		"grunt": "0.4.4",
 		"grunt-responsive-videos": "0.1.1"
 	}
