@@ -33,6 +33,7 @@
 	"dependencies": {
 		"aws-lib" : "0.2.x",
 		"grunt": "0.4.4",
+		"grunt-responsive-images": "0.1.4",
 		"grunt-responsive-videos": "0.1.1"
 	}
 }
