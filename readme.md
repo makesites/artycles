@@ -1,13 +1,14 @@
 
 ## Artycles
 
-Content creation as a service
+Automated media management: Generation of different resolutions and storing on the cloud.
 
 
-## Dependencies
+## Features
 
-* [connect-oauth2](https://github.com/makesites/connect-oauth2)
-* [aws-lib](https://github.com/livelycode/aws-lib)
+* File formats: video, image
+* Storing locations: local, S3
+
 
 ## Install
 
@@ -15,14 +16,15 @@ Content creation as a service
 npm install artycles
 ```
 
+
 ## Usage
 
-Using the REST API: 
+Using standard CRUD operations:
 
-* ```POST``` to create an item
-* ```PUT``` to update an item
-* ```GET``` to retrieve an item
-* ```DELETE ``` to delete an item
+* ```Create``` to create an item
+* ```Read``` to retrieve an item
+* ```Update``` to update an item
+* ```Destroy ``` to delete an item
 
 
 ## Options
@@ -32,11 +34,16 @@ Using the REST API:
 
 ## Credits
 
-Created by [Makis Tracend](http://tracend.me)
+Initiated by [Makis Tracend](http://github.com/tracend)
+
+Distributed through [Makesites.org](http://makesites.org)
+
+### Trivia
 
 Originally developed for [Comics GL](http://comicsgl.com)
 
-Distributed by [Makesites.org](http://makesites.org)
+Featured in a [Makesites Hackathon](http://makesites-141101.eventbrite.com)
+
+### License
 
 Released under the [Apache License, Version 2.0](http://makesites.org/licenses/APACHE-2.0)
-
