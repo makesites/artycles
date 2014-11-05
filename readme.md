@@ -1,7 +1,7 @@
 
 ## Artycles
 
-Automated media management: Generation of different resolutions and storing on the cloud.
+Media API automation by generating different resolutions and (optionally) storing in the cloud.
 
 
 ## Features
