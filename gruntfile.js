@@ -7,4 +7,6 @@ module.exports = function (grunt) {
 
 	grunt.loadNpmTasks('grunt-responsive-videos');
 
+	grunt.loadNpmTasks('grunt-responsive-images');
+
 };
