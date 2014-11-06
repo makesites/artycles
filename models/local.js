@@ -21,11 +21,9 @@ Model.prototype = {
 
 	constructor: Model,
 
-	create: function( file, callback ){
-		var filename = path.basename( file );
-		var destination = this.options.path + filename;
+	create: function( data, callback ){
 		// support loop of multiple files?
-		fs.createReadStream( file ).pipe( fs.createWriteStream(destination) )
+		fs.createReadStream( data.source ).pipe( fs.createWriteStream( data.destination ) )
 		.on("finish", function(){
 			// error control?
 			callback(true);
