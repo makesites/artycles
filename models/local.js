@@ -4,7 +4,8 @@
 **/
 
 var fs = require("fs"),
-	path = require("path");
+	path = require("path"),
+	utils = require("../lib/utils");
 
 // constructor
 var Model = function( options ){
@@ -23,6 +24,10 @@ Model.prototype = {
 
 	create: function( data, callback ){
 		// support loop of multiple files?
+		// make sure destination folder exists
+		var dir = path.dirname( data.destination );
+		if ( !fs.existsSync( dir ) ) utils.mkdir( dir );
+		//
 		fs.createReadStream( data.source ).pipe( fs.createWriteStream( data.destination ) )
 		.on("finish", function(){
 			// error control?
