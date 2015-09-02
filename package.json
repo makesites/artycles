@@ -20,10 +20,11 @@
 	"bugs": {
 		"url": "https://github.com/makesites/artycles/issues"
 	},
+	"license": "Apache v2.0",
 	"licenses": [
 		{
-			"type": "MIT License",
-			"url": "http://www.makesites.org/licenses/MIT"
+			"type": "Apache License, Version 2.0",
+			"url": "http://makesites.org/licenses/APACHE-2.0"
 		}
 	],
 	"main": "./index.js",
@@ -35,7 +36,7 @@
 		"grunt": "0.4.4",
 		"grunt-responsive-images": "0.1.4",
 		"grunt-responsive-videos": "0.1.1",
-		"fluent-ffmpeg": "2.0.1", 
+		"fluent-ffmpeg": "2.0.1",
 		"s3": "4.3.1"
 	},
 	"devDependencies": {
