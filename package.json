@@ -1,6 +1,6 @@
 {
 	"name": "artycles",
-	"version": "0.3.3",
+	"version": "0.3.4",
 	"description": "Media API automation by generating different resolutions and (optionally) storing in the cloud",
 	"author": "makesites",
 	"contributors": [
@@ -33,16 +33,14 @@
 	},
 	"dependencies": {
 		"async": "0.9.0",
+		"fluent-ffmpeg": "2.0.1",
 		"grunt": "0.4.4",
 		"grunt-responsive-images": "0.1.7",
 		"grunt-responsive-videos": "0.1.3",
-		"fluent-ffmpeg": "2.0.1",
 		"image-size": "0.3.5",
 		"s3": "4.3.1"
 	},
 	"devDependencies": {
 		"request": "2.47.0"
 	}
-
 }
-
