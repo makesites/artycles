@@ -29,7 +29,7 @@
 	],
 	"main": "./index.js",
 	"engines": {
-		"node": ">0.8.x"
+		"node": ">=10.x.x"
 	},
 	"dependencies": {
 		"async": "0.9.0",
