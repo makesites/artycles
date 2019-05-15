@@ -17,7 +17,7 @@ var artycles = new Artycles({
 var file = os.tmpDir() +"/image.png";
 // get the file
 request
-	.get("http://itsabeautifulearth.files.wordpress.com/2013/03/earth-from-iss-3.png")
+	.get("https://archive.org/download/sts047-54-016/sts047-54-016.jpg")
 	.pipe(fs.createWriteStream( file ))
 	.on('finish', function () {
 		// start the example ;)
